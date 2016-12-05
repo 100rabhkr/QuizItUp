@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz_india"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizitup.QuizIndia">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="India"
+                style="@style/quizTitle"
+                android:id="@+id/textView" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:id="@+id/Q1">
+
+            <TextView
+                style="@style/questions"
+                android:text="@string/indQ1"
+                android:textSize="16sp"
+                android:textColor="@color/transparent"
+                />
+
+            <RadioGroup
+                android:layout_marginTop="16dp"
+                android:id="@+id/Ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/a1opt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/indA1"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/a1opt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mumbai" />
+
+            </RadioGroup>
+
+            <TextView
+                style="@style/questions"
+                android:text="@string/indQ2"
+                android:textSize="16sp"
+                android:textColor="@color/transparent"
+                />
+
+            <RadioGroup
+                android:layout_marginTop="16dp"
+                android:id="@+id/Ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/a2opt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="26-Jan-1950"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/a2opt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/indA2" />
+
+            </RadioGroup>
+
+            <TextView
+                style="@style/questions"
+                android:text="@string/indQ3"
+                android:textSize="16sp"
+                android:textColor="@color/transparent"
+                />
+
+            <RadioGroup
+                android:layout_marginTop="16dp"
+                android:id="@+id/Ans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/a3opt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rahul Gandhi"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/a3opt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/indA3" />
+
+            </RadioGroup>
+
+            <TextView
+                style="@style/questions"
+                android:text="@string/indQ4"
+                android:textSize="16sp"
+                android:textColor="@color/transparent"
+                />
+
+            <RadioGroup
+                android:layout_marginTop="16dp"
+                android:id="@+id/Ans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/a4opt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/indA4"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/a4opt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bihar" />
+
+            </RadioGroup>
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_marginTop="24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/proceed"
+                    android:id="@+id/submit_quiz_Indiaa1"
+                    android:layout_centerInParent="true"
+                    android:onClick="scoreCalculator"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/test"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

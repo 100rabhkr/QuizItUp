@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">QuizItUp</string>
+    <string name="proceed">Proceed</string>
+    <string name="indQ1">Q-1: What is the capital of India?</string>
+    <string name="indA1">New Delhi</string>
+    <string name="indQ2">Q-2: When did India become independent?</string>
+    <string name="indA2">15-Aug-1947</string>
+    <string name="indQ3">Q-3: Who is Current Prime Minister Of India?</string>
+    <string name="indA3">Narendra Modi</string>
+    <string name="indQ4">Q-4: In which state is The Taj Mahal located?</string>
+    <string name="indA4">Agra</string>
+
+    <string name="tvQ1">Q-1: In which show does Sheldon Cooper appear?</string>
+    <string name="tvA1">Big Bang Theory</string>
+    <string name="tvQ2">Q-2: How many seasons are there in FRIENDS?</string>
+    <string name="tvA2">Ten</string>
+    <string name="tvQ3">Q-3: What is the full name of Seinfeld?</string>
+    <string name="tvA3">Jerry Sienfeld</string>
+    <string name="tvQ4">Q-4: How many kids does Ted have?</string>
+    <string name="tvA4">Two</string>
+
+    <string name="Option1">India</string>
+    <string name="Option2">Tv Shows</string>
+
+
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz_india"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizitup.QuizIndia">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/Option2"
+                style="@style/quizTitle"
+                android:id="@+id/textView" />
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:id="@+id/tvqQ1">
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/tvQ1"
+            android:textSize="16sp"
+            android:textColor="@color/transparent"
+            />
+
+        <RadioGroup
+            android:layout_marginTop="16dp"
+            android:id="@+id/tvAns1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/tva1opt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvA1"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/a1opt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How I Met Your Mother" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/tvQ2"
+            android:textSize="16sp"
+            android:textColor="@color/transparent"
+            />
+        <RadioGroup
+            android:layout_marginTop="16dp"
+            android:id="@+id/tvAns2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/tva2opt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Five"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/tva2opt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvA2" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/tvQ3"
+            android:textSize="16sp"
+            android:textColor="@color/transparent"
+            />
+
+        <RadioGroup
+            android:layout_marginTop="16dp"
+            android:id="@+id/tvAns3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/tva3opt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="George Sienfeld"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/tva3opt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvA3" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/tvQ4"
+            android:textSize="16sp"
+            android:textColor="@color/transparent"
+            />
+
+        <RadioGroup
+            android:layout_marginTop="16dp"
+            android:id="@+id/tvAns4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/tva4opt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvA4"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/a4opt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Five" />
+
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_marginTop="24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/proceed"
+                android:id="@+id/submit_quiz_Tv"
+                android:layout_centerInParent="true"
+                android:onClick="scoreCalculatortv"/>
+        </RelativeLayout>
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>
